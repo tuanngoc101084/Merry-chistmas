@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifbacground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hinhnengif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"></pl.droidsonroids.gif.GifImageView>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifmovesecond"
+        android:layout_width="217dp"
+        android:layout_height="127dp"
+        android:src="@drawable/santaclausecon"
+        app:layout_constraintBottom_toTopOf="@+id/gifImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gifmerrychristmas"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="207dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="160dp"
+        android:src="@drawable/ice_pean"
+        app:layout_constraintBottom_toBottomOf="@+id/gifbacground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView4"
+        android:layout_width="207dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="112dp"
+        android:src="@drawable/ice_pean"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/gifImageView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.341" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView6"
+        android:layout_width="144dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="168dp"
+        android:src="@drawable/ice_pean"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/gifImageView"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.647" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImagesantal1"
+        android:layout_width="170dp"
+        android:layout_height="174dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/dance0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gifmovefirstime"
+        app:layout_constraintVertical_bias="0.926" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImagesanta3"
+        android:layout_width="174dp"
+        android:layout_height="188dp"
+        android:layout_marginEnd="208dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/dance0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gifmovefirstime"
+        app:layout_constraintVertical_bias="0.982" />
+
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImagesanta2"
+        android:layout_width="280dp"
+        android:layout_height="224dp"
+        android:layout_marginEnd="40dp"
+        android:src="@drawable/dance0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gifmovefirstime"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifmerrychristmas"
+        android:layout_width="357dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/merry"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifmovefirstime"
+        android:layout_width="160dp"
+        android:layout_height="109dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/movefirst"
+        app:layout_constraintBottom_toTopOf="@+id/gifImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gifbacground"
+        app:layout_constraintVertical_bias="0.391" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifsantaclauswelcome"
+        android:layout_width="307dp"
+        android:layout_height="171dp"
+        android:src="@drawable/santaclaus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/running"
+        android:layout_width="212dp"
+        android:layout_height="156dp"
+        android:src="@drawable/dance2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/idskate"
+        android:layout_width="144dp"
+        android:layout_height="155dp"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/skate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView2"
+        android:layout_width="412dp"
+        android:layout_height="306dp"
+        android:layout_marginTop="428dp"
+        android:src="@drawable/snow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></pl.droidsonroids.gif.GifImageView>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/snow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </pl.droidsonroids.gif.GifImageView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
